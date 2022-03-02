@@ -1,0 +1,49 @@
+/* 
+    Created on : 26-Dec-2021, 09:06:19
+    Author     : Predrag Nastić
+*/
+
+/*** ARIAL ***/
+@font-face {
+    font-family: 'Arial';
+    src: url('./fonts/arial-regular/ArialMT.eot');
+    src: local('Arial'), local('ArialMT'),
+        url('./fonts/arial-regular/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/arial-regular/ArialMT.woff2') format('woff2'),
+        url('fonts/arial-regular/ArialMT.woff') format('woff'),
+        url('fonts/arial-regular/ArialMT.ttf') format('truetype'),
+        url('./fonts/arial-regular/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*** LATO ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/lato-rehular/Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('./fonts/lato-rehular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/lato-rehular/Lato-Regular.woff2') format('woff2'),
+        url('./fonts/lato-rehular/Lato-Regular.woff') format('woff'),
+        url('./fonts/lato-rehular/Lato-Regular.ttf') format('truetype'),
+        url('./fonts/lato-rehular/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/lato-bold/Lato-Bold.eot');
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url('./fonts/lato-bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/lato-bold/Lato-Bold.woff2') format('woff2'),
+        url('./fonts/lato-bold/Lato-Bold.woff') format('woff'),
+        url('./fonts/lato-bold/Lato-Bold.ttf') format('truetype'),
+        url('./fonts/lato-bold/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

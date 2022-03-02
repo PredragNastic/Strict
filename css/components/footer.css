@@ -1,0 +1,65 @@
+/* 
+    Created on : 27-Dec-2021, 09:06:50
+    Author     : Predrag Nastić
+*/
+
+/*** MOBILE ***/
+
+.footer .container p{
+    font-size: 0.75rem;
+}
+
+.footer .footer__social-nav li {
+    text-align: center;
+}
+
+.footer .footer__social-nav a{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #15A4FA;
+
+    color: #fff;
+}
+
+
+/*** SM - 576 ***/
+@media(min-width:576px){
+
+    .footer .footer__social-nav li:not(:first-of-type) {
+        margin-left: 0.3125rem;
+    }
+    
+}
+
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+
+    .footer .container p{
+        font-size: 0.875rem;
+    }
+
+}
+
+
+/*** LG - 992 
+@media(min-width:992px){
+
+}***/
+
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+
+    .footer .container p{
+        font-size: 0.937rem;
+    }
+}
+
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+
+}***/

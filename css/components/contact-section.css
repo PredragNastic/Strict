@@ -1,0 +1,113 @@
+/* 
+    Created on : 27-Dec-2021, 09:48:36
+    Author     : Predrag Nastić
+*/
+
+/*** MOBILE ***/
+
+.contact{
+    padding: 2rem 0 4rem;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact .section-title{
+    margin-bottom: 1.31rem;
+}
+
+.contact .section-title,
+.contact .section-lead{
+    color: #fff;
+}
+
+.contact .section-lead,
+.contact .sub-txt{
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+.contact .form-control{
+    line-height: 2.5rem;
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: #fff;
+}
+
+.contact .form-control:focus{
+    box-shadow: 0 0 0 0;
+}
+
+.contact textArea{
+    resize: none;
+}
+
+ input[type=checkbox]{
+    display: none;
+}
+
+.checkbox-label .fake-checkox{
+    display: inline-block;
+    margin-right: 0.937rem;
+    width: 0.937rem;
+    height: 0.937rem;
+    border: 1px solid #9AA1AB;
+    border-radius: 2px;
+    background-color: #F6F9F9;
+}
+
+.checkbox-label input:checked ~ .fake-checkox{
+    border: 1px solid #F6F9F9;
+    background-color: #9AA1AB;
+}
+
+.contact .btn{
+    padding: 0.5rem 3rem;
+    color: #fff;
+}
+
+.contact .btn:hover{
+    color: #fff;
+}
+
+
+/*** SM - 576 
+@media(min-width:576px){
+
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+
+    .contact{
+        padding: 50px 0 80px;
+    }
+
+    .contact .section-lead,
+    .contact .sub-txt{
+        font-size: 14px;
+    }
+}
+
+/*** LG - 992 
+@media(min-width:992px){
+
+}***/
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .contact{
+        padding: 74px 0 108px;
+    }
+
+    .contact .section-lead,
+    .contact .sub-txt{
+        font-size: 15px;
+    }
+}
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+
+}***/

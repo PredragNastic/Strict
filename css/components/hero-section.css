@@ -1,0 +1,106 @@
+/* 
+    Created on : 27-Dec-2021, 09:48:11
+    Author     : Predrag Nastić
+*/
+
+/*** MOBILE ***/
+
+.hero{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.hero .container{
+    min-height: 100vh;
+}
+
+
+.hero .container h1{
+    padding: 0 3.75rem 0.875rem;
+    position: relative;
+
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    color: #fff;
+}
+
+.hero .container h1::after{
+    content: '';
+    display: block;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+
+    background-color: #15A4FA;
+}
+
+.hero .container p{
+    color: #fff;
+}
+
+.hero .container .btn-outline-info{
+    padding: 0.625rem 1.625rem;
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+.hero .container .scroll-arrow{
+    padding: 0.5rem;
+
+    position: absolute;
+    bottom: 1rem;
+
+    color: #fff;
+}
+
+
+/*** SM - 576 
+@media(min-width:576px){
+
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+
+    .hero .container h1{
+        padding-bottom: 1.5rem;
+        font-size: 5rem;
+        line-height: 5.25rem;
+    }
+
+    .hero .container .btn-outline-info{
+        font-size: 1rem;
+    }
+
+}
+
+/*** LG - 992 
+@media(min-width:992px){
+
+}***/
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+    .hero .container h1{
+        padding-bottom: 2.125rem;
+        font-size: 7.5rem;
+        line-height: 7.75rem;
+    }
+    
+    .hero .container .btn-outline-info{
+        font-size: 1.125rem;
+    }
+    
+}
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+
+}
+***/

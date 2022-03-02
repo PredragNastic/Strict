@@ -1,0 +1,43 @@
+/* 
+    Created on : 27-Dec-2021, 09:49:01
+    Author     : Predrag Nastić
+*/
+
+/*** MOBILE ***/
+
+.hiw-section{
+    padding: 2rem 0;
+}
+
+
+/*** SM - 576 
+@media(min-width:576px){
+
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+    .hiw-section{
+        padding: 3.75rem 0 5rem;
+    }
+}
+
+/*** LG - 992 ***/
+@media(min-width:992px){
+    .hiw-section{
+        padding: 4.374rem 0 5.6rem;
+    }
+}
+
+/*** XL - 1200 ***/
+@media(min-width:1200px){
+
+    .hiw-section{
+        padding: 5rem 0 6.875rem;
+    }
+}
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+
+}***/

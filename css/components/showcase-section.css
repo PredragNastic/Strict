@@ -1,0 +1,124 @@
+/* 
+    Created on : 27-Dec-2021, 09:48:26
+    Author     : Predrag Nsstić
+*/
+
+.showcase-cta{
+    font-size: 0.812;
+    color: #909090;
+}
+
+
+.showcase-cta:hover{
+    color: #909090;
+}
+
+.showcase .showcase-section__item{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.showcase .showcase-section__item:after{
+    content: '';
+    display: block;
+    width: 1.875rem;
+    height: 1.975rem;
+
+    border-top: 0.5rem solid #15A4FA;
+    border-right: transparent;
+    border-bottom: 0.1rem solid #15A4FA;
+    border-left: 0.3rem solid #15A4FA;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    animation: img-loader 0.8s linear infinite;
+}
+
+@keyframes img-loader{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.showcase .showcase-section__item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.showcase .showcase-section__item .showcase__options{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(21, 162, 250, 0.9);
+
+    transition: 0.3s ease-in;
+}
+
+.showcase-icon{
+    display: block;
+    margin-inline: 0.2rem;
+    width: 2.875rem;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    border: 2px solid #fff;
+
+    text-align: center;
+    color: #fff;
+}
+
+.showcase .showcase-section__item:hover .showcase__options{
+    transform: translateX(-100%);
+    z-index: 2;
+}
+
+.showcase-icon:hover{
+    color: #fff;
+}
+
+/*** MOBILE ***/
+
+/*** SM - 576 
+@media(min-width:576px){
+
+}***/
+
+/*** MD - 768 ***/
+@media(min-width:768px){
+    
+    .showcase-cta{
+        font-size: 0.937rem;
+    }
+
+}
+
+/*** LG - 992 
+@media(min-width:992px){
+
+}***/
+
+/*** XL - 1200 
+@media(min-width:1200px){
+
+}***/
+
+/*** XXL - 1400 
+@media(min-width:1400px){
+
+}***/

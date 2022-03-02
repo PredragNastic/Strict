@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Predrag Nastić">
+        <meta name="description" content="Strict is a Bootsrap5 project">
+        <meta name="keywords" content="Strict, Bootstrap, Boostrap5, Bootstrap5 grid, html, html5, csss, css3, responsive">
+        <link rel="icon" type="image/png" href="./favicon-16x16.png">
+
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Strict">
+        <link rel="apple-touch-icon" href="./apple-icon-144x144.png">
+
+        <!--Android compatibility-->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Strict">
+        <link rel="icon" type="image/png" href="./android-icon-192x192.png">
+
+        <!-- FONTS -->
+        <link href="./css/fonts.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- CUSTOM CSS -->
+        <link href="./css/theme.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/page-styles.css" rel="stylesheet" type="text/css"/>
+
+        <title>Strict</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header class="fixed-top">
+            <!-- navigation start -->
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <!-- container start -->
+                <div class="container d-lg-flex justify-content-lg-around justify-content-xl-between">
+
+                    <a class="navbar-brand m-0 d-flex justify-content-center align-items-center" href="./index.html">
+                        <img src="./images/logo.png" alt="company logo" width="34" height="37"/><!--whitespace
+                        --><span class="logo-part2 d-block ms-3 text-uppercase fw-bold">strict</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <!-- navigation menu start --> 
+                        <ul class="navbar-nav ms-auto text-center m-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#hero">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hiw">how it works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">faq</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">contact</a>
+                            </li>
+                        </ul> <!-- navigation menu end --> 
+                    </div>
+                </div> <!-- container end -->
+            </nav> <!-- navigation end -->
+        </header> <!-- HEADER END -->
+
+        <!-- MAIN START -->
+        <main>
+            <!-- hero section start -->
+            <section id="hero" class="hero" style="background-image: url('./images/hero-Image.jpg')">
+                <!-- container start -->
+                <div class="container d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="mb-3 mb-md-4 mb-xl-5 text-uppercase ">strict</h1>
+                    <p class="mb-5 text-center">
+                        <span class="text-uppercase">STRICT</span>
+                        is a responsive theme with a a clean and minimal look.
+                    </p>
+                    <a href="#contact" class="btn btn-outline-info mb-5">Call to action</a>
+
+                    <a href="#hiw" class="scroll-arrow">
+                        <span class="fas fa-chevron-down"></span>
+                    </a>
+                </div> <!-- container end -->
+            </section> <!-- hero section end -->
+
+            <!-- how it works section start -->
+            <section id="hiw" class="hiw-section bg-light">
+
+                <!-- container start -->
+                <div class="container">
+
+                    <article class="hiw-section__content text-center">
+                        <h2 class="section-title mb-3 mb-md-4">Simple & pure design.</h2>
+                        <p class="m-0">
+                            Designers everywhere gush with admiration upon seeing 
+                            a web design and exclaim "its beautiful, it's so clean!".
+                            There are a countless number of webdesign round-ups 
+                            dedicated to 'clean' design and it is a term thrown 
+                            around quite a bit in the web design community. It can
+                            be easy to spot a good example of clean design.
+                        </p>
+                    </article>
+                </div><!-- container end -->
+            </section> <!-- how it works section end -->
+
+            <!-- srvices section start -->
+            <section id="services" class="services">
+
+                <!-- container start -->
+                <div class="container">
+
+                    <!-- wrapper start -->
+                    <div class="services__item-wrapper">
+
+                        <!-- main grid start -->
+                        <div class="row">
+
+                            <!-- item start -->
+                            <div class="col-12 col-md-4">
+                                <article class="services__item h-100 mb-4 text-center">
+                                    <aside class="services__item-icon d-inline-block mb-3"
+                                           style="background-image: linear-gradient(to right, rgba(72, 186, 255, 0.8) 50%, rgba(95, 195, 255, 1) 100%)">
+                                        <span class="fas fa-mobile-alt"></span>
+                                    </aside>
+                                    <div class="services__item-content">
+                                        <h3 class="item-title mb-3">Optimized for all devices</h3>
+                                        <p class="item-desc m-0">
+                                            <span class="text-uppercase">strict</span>
+                                            has been designed to be fully 
+                                            responsive on all devices
+                                        </p>
+                                    </div>
+                                </article> 
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-md-4 ">
+                                <article class="services__item h-100 mb-4 text-center">
+                                    <aside class="services__item-icon d-inline-block mb-3"
+                                           style="background-image: linear-gradient(to right, rgba(72, 186, 255, 0.8) 50%, rgba(95, 195, 255, 1) 100%)">
+                                        <span class="fas fa-paper-plane"></span>
+                                    </aside>
+                                    <div class="services__item-content">
+                                        <h3 class="item-title mb-3">Clean & Minimal Design</h3>
+                                        <p class="item-desc m-0">
+                                            This multipurpose theme is especially created 
+                                            to be used for different projects.
+                                        </p>
+                                    </div>
+                                </article> 
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-md-4">
+                                <article class="services__item h-100 mb-4 text-center">
+                                    <aside class="services__item-icon d-inline-block mb-3"
+                                           style="background-image: linear-gradient(to right, rgba(72, 186, 255, 0.8) 50%, rgba(95, 195, 255, 1) 100%)">
+                                        <span class="fas fa-bullhorn"></span>
+                                    </aside>
+                                    <div class="services__item-content">
+                                        <h3 class="item-title mb-3">Font Awesome Icon</h3>
+                                        <p class="item-desc m-0">
+                                            This multipurpose theme is especially created 
+                                            to be used for different projects.
+                                        </p>
+                                    </div>
+                                </article> 
+                            </div> <!-- item end -->
+                        </div> <!-- main grid end -->
+                    </div> <!-- wrapper end -->
+                </div> <!-- container end -->
+            </section> <!-- services section end -->
+
+            <!-- showcase section start -->
+            <section id="showcase" class="showcase bg-light py-5">
+                <!-- container start -->
+                <div class="container text-center">
+                    <h2 class="section-title mb-3">Showcase your work like a pro.</h2>
+                    <a href="#contact" class="showcase-cta d-block mb-5"> Contact me if you like my work</a>
+
+                    <!-- wrapper start -->
+                    <div class="showcase__wrapper">
+                        <!-- main grid start -->
+                        <div class="row">
+
+                            <!-- item start -->
+                            <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                                <figure class="showcase-section__item h-100 m-0 ratio ratio-4x3">
+                                    <img src="./images/showcase-images/image_01.jpg" alt="bike"/>
+                                    <div class="showcase__options d-flex justify-content-center align-items-center">
+                                        <nav class="showcase__nav d-flex">
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-search-plus"></span>
+                                            </a>
+
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-link"></span>
+                                            </a> 
+                                        </nav>
+                                    </div>
+                                </figure>
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                                <figure class="showcase-section__item h-100 m-0 ratio ratio-4x3">
+                                    <img src="./images/showcase-images/image_02.jpg" alt="bike"/>
+                                    <div class="showcase__options d-flex justify-content-center align-items-center">
+                                        <nav class="showcase__nav d-flex">
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-search-plus"></span>
+                                            </a>
+
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-link"></span>
+                                            </a> 
+                                        </nav>
+                                    </div>
+                                </figure>
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                                <figure class="showcase-section__item h-100 m-0 ratio ratio-4x3">
+                                    <img src="./images/showcase-images/image_03.jpg" alt="bike"/>
+                                    <div class="showcase__options d-flex justify-content-center align-items-center">
+                                        <nav class="showcase__nav d-flex">
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-search-plus"></span>
+                                            </a>
+
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-link"></span>
+                                            </a> 
+                                        </nav>
+                                    </div>
+                                </figure>
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                                <figure class="showcase-section__item h-100 m-0 ratio ratio-4x3">
+                                    <img src="./images/showcase-images/image_04.jpg" alt="bike"/>
+                                    <div class="showcase__options d-flex justify-content-center align-items-center">
+                                        <nav class="showcase__nav d-flex">
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-search-plus"></span>
+                                            </a>
+
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-link"></span>
+                                            </a> 
+                                        </nav>
+                                    </div>
+                                </figure>
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                                <figure class="showcase-section__item h-100 m-0 ratio ratio-4x3">
+                                    <img src="./images/showcase-images/image_05.jpg" alt="bike"/>
+                                    <div class="showcase__options d-flex justify-content-center align-items-center">
+                                        <nav class="showcase__nav d-flex">
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-search-plus"></span>
+                                            </a>
+
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-link"></span>
+                                            </a> 
+                                        </nav>
+                                    </div>
+                                </figure>
+                            </div> <!-- item end -->
+
+                            <!-- item start -->
+                            <div class="col-12 col-sm-6 col-md-4 mb-4  ">
+                                <figure class="showcase-section__item h-100 m-0 ratio ratio-4x3">
+                                    <img src="./images/showcase-images/image_06.jpg" alt="bike"/>
+                                    <div class="showcase__options d-flex justify-content-center align-items-center">
+                                        <nav class="showcase__nav d-flex">
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-search-plus"></span>
+                                            </a>
+
+                                            <a href="#" class="showcase-icon">
+                                                <span class="fas fa-link"></span>
+                                            </a> 
+                                        </nav>
+                                    </div>
+                                </figure>
+                            </div> <!-- item end -->
+                        </div> <!-- main grid end -->
+                    </div> <!-- wrapper end -->
+                </div> <!-- container end -->
+            </section> <!-- showcase section end -->
+
+            <!-- contact section start -->
+            <section id="contact" class="contact" 
+                     style="background-image:linear-gradient(to right, rgba(45, 57, 80, 0.9), rgba(45, 57, 80, 0.9)), url('./images/form.jpg')">
+
+                <!-- container start -->
+                <div class="container">
+
+                    <h2 class="section-title">Stay with us</h2>
+                    <p class="section-lead mb-5 text-center">We ensure quailty &#38; support</p>
+
+                    <!-- main frid start -->
+                    <div class="row">
+                        <div class="col-12 col-md-8 mx-md-auto col-lg-6">
+                            <!-- form wrapper start -->
+                            <div class="contact__form-wrapper h-100">
+                                <form method="POST" action="">
+                                    <div class="form-group mb-3">
+                                        <input type="text"  name="user_name" value="" placeholder="Full Name" class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input type="email" name="user_email" value="" placeholder="Email Address" class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <textarea name="user_message" placeholder="Message" cols="30" rows="5" class="form-control"></textarea>
+                                    </div>
+
+                                    <!-- checkbox & button row start -->
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <div class="form-group  h-100">
+                                                <label class="checkbox-label d-flex align-items-center">
+                                                    <input type="checkbox"> 
+                                                    <span class="fake-checkox"></span><!-- whitespace 
+                                                   --><span class="sub-txt">Subscribe Newsletter</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 d-flex justify-content-end">
+                                            <div class="form-group h-100">
+                                                <button type="submit" value="yes" class="btn btn-outline-info">Send</button>
+                                            </div>
+                                        </div>
+                                    </div> <!-- checkbox & button row end -->
+                                </form><!-- form end -->
+                            </div> <!-- form wrapper end -->
+                        </div>
+                    </div> <!-- main frid start -->
+                </div> <!-- container end -->
+            </section> <!-- contact section end -->
+        </main> <!-- MAIN END -->
+
+        <!-- FOOTER START -->
+        <footer class="footer py-4">
+            <!-- container strat -->
+            <div class="container">
+
+                <div class="row align-items-sm-center">
+
+                    <div class="col-12 text-center mb-5 col-sm-6 mb-sm-0 text-sm-start">
+                        <p class="m-0 h-100">Copyritht 2014, STRICT</p>
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+                        <!-- social nav start -->
+                        <nav class="footer__social-nav h-100 ">
+                            <ul class="footer__social-menu m-0 d-flex justify-content-around align-items-center justify-content-sm-end">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="fab fa-google-plus-g"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="fab fa-linkedin-in"></span>
+                                    </a>
+                                </li> 
+                            </ul>
+                        </nav> <!-- social nav end -->
+                    </div>
+                </div> <!-- row end -->
+            </div> <!-- container end -->
+        </footer> <!-- FOOTER END -->
+
+        <!-- SCRIPTS -->
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/85bd05dd45.js" crossorigin="anonymous"></script>
+    </body>
+</html>
